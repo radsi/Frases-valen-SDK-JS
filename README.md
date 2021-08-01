@@ -10,6 +10,10 @@ createVideo(phrase STRING, videoId STRING, video_start INTEGER, video_end INTEGE
 
 In video_start and video_end you have to put it in seconds
 
+getMe()
+
+Get current authenticated user
+
 npm https://www.npmjs.com/package/npm-fvsdk-radsi
 
 more info in https://frasesvalen.antonioma.com/api/docs

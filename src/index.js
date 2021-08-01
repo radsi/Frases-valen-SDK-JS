@@ -38,6 +38,16 @@ async createVideo(phrase, videoId, video_start, video_end, suggested_by){
     return await fvapi.post('https://frasesvalen.antonioma.com/api/phrases/create?'+req).then(r=>r.data)
 }
 
+async getMe(){
+    if(!this.token){return "TOKEN IS NECESSARY"}
+    const fvapi = await axios.create({
+        baseURL: 'https://frasesvalen.antonioma.com/api/',
+        headers: {'Authorization': "Bearer "+this.token}
+    });
+    return await fvapi.get('https://frasesvalen.antonioma.com/api/user').then(r=>r.data)
+}
+        
+
 }
 
 module.exports.API = API
