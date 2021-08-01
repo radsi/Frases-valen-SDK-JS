@@ -10,4 +10,6 @@ createVideo(phrase STRING, videoId STRING, video_start INTEGER, video_end INTEGE
 
 In video_start and video_end you have to put it in seconds
 
+github https://github.com/radsi/Frases-valen-SDK-JS
+
 more info in https://frasesvalen.antonioma.com/api/docs
