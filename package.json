@@ -1,5 +1,5 @@
 {
-  "name": "FVsdk",
+  "name": "fv-sdk",
   "version": "1.0.1",
   "description": "This package is an SDK for FrasesValen",
   "main": "src/index.js",
