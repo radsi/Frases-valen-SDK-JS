@@ -12,7 +12,7 @@ In video_start and video_end you have to put it in seconds
 
 getMe()
 
-Get current authenticated user
+Get current authenticated user)
 
 npm https://www.npmjs.com/package/npm-fvsdk-radsi
 
